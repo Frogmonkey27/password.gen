@@ -44,8 +44,8 @@ if (includeNumeric) {
 characterSet += "0123456789";
 }
 if (includeSpecial) {
-characterSet += "!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~";
-}
+    characterSet += "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~";
+  }  
 
 // Generate the password based on the character set and password length
 var password = "";
